@@ -1,0 +1,56 @@
+/* Estilos para la página de carga */
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 191, 4); /* Color de fondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Coloca la página de carga encima de todo */
+}
+
+.loader {
+    text-align: center;
+    margin-left: 2%;
+    position: relative; /* Agrega posición relativa al contenedor */
+    margin-bottom: 1%;
+}
+
+/* Estilos opcionales para mejorar la apariencia */
+.loader img {
+    max-width: 100rem;
+    margin-left: 14%;
+    position: absolute; /* Agrega posición absoluta para superponer la imagen */
+    top: 0; /* Coloca la imagen en la parte superior del contenedor */
+    left: 0; /* Coloca la imagen en la parte izquierda del contenedor */
+    box-shadow: 2rem 5px 15px rgba(0, 0, 0, 0.5); /* Agrega sombra a la imagen */
+    transform: translateZ(30px); /* Efecto 3D */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+    border-radius: 5rem;
+    border-style: groove;/*Da la ilusión de que el borde es metalico*/
+}
+
+.loader h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 45%; /* Ajusta el margen superior según sea necesario */
+    margin-left: 5%;
+    text-shadow: 0.3rem 0.3rem 0.35rem rgba(0, 0, 0, 5); /* Agrega sombra al texto */
+    transform: translateZ(10rem); /* Efecto 3D */
+    transition: transform 5s ease, text-shadow 5s ease; /* Animación */
+}
+
+/* Cambios en la animación para ocultar la página de carga */
+.content {
+    opacity: 0;
+    animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

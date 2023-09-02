@@ -1,0 +1,12 @@
+.section__game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../../../assets/gif/gif__portafolio/2D0E.gif);
+    background-position-y: center;
+    background-size: contain;
+    background-position: center;
+}
+

@@ -1,0 +1,10 @@
+/*Pagina de carga*/
+@import url(./pagina_de_carga/pagina_de_carga.css);
+/*header*/
+@import url(./header/header.css);
+/*nav*/
+@import url(./nav/nav.css);
+/*section__game*/
+@import url(./section_game/section__game.min.css);
+/*footer*/
+@import url(./footer/footer.min.css);

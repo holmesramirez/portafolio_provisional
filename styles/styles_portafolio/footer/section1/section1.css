@@ -1,0 +1,7 @@
+.section1__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    border: none;
+}

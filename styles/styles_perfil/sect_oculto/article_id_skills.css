@@ -1,0 +1,87 @@
+#id__skills {
+    margin-right: 0%;
+    margin-left: -50%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.java {
+    color: brown;
+    margin-top: 0.5%;
+    margin-left: 150%;
+    font-size: 3rem;
+}
+
+.spring {
+    color: green;
+    margin-top: -15%;
+    margin-right: 100%;
+    font-size: 3rem;
+}
+
+.db {
+    color: cornflowerblue;
+    margin-top: 0.5%;
+    margin-left: 50%;
+    font-size: 3rem;
+}
+
+.oc {
+    color: brown;
+    margin-top: 0.5%;
+    margin-right: 100%;
+    font-size: 3rem;
+}
+
+.js {
+    color: gold;
+    margin-top: -15%;
+    margin-left: 150%;
+    font-size: 3rem;
+}
+
+.ht {
+    color: red;
+    margin-top: 1%;
+    margin-right: 100%;
+    font-size: 3rem;
+}
+
+.css {
+    color: blue;
+    margin-top: -15%;
+    margin-left: 50%;
+    font-size: 3rem;
+}
+
+.react {
+    color: aqua;
+    margin-top: -10%;
+    margin-left: 150%;
+    font-size: 3rem;
+}
+
+.angular {
+    color: red;
+    margin-top: 1%;
+    margin-right: 100%;
+    font-size: 3rem;
+}
+
+.android {
+    color: lawngreen;
+    margin-top: -10%;
+    margin-left: 50%;
+    font-size: 3rem;
+}
+
+.txt {
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}

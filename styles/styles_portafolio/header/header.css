@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: static;
+    border-color: transparent;
+}
+
+.header__port {
+    background-image: url('../../../assets/img/img_portafolio/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: left;
+    padding: 1rem 0;
+    /* Espaciado superior e inferior */
+}
+
+.img__contenedor {
+    background-color: #f0f0f0;
+    width: 12rem;
+    height: 16rem;
+    margin: 1rem;
+    margin-top: 6%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: 3s;
+    perspective: 10rem;
+    opacity: 0; /* Comienza con opacidad 0 */
+}
+
+.img__foto {
+    width: 100%;
+    height: auto;
+    margin-left: 0.4rem;
+    margin-top: 0.3%;
+    transition: transform 2s ease, opacity 6s; /* Agregar transición suave */
+}
+
+.img__contenedor.aparecer {
+    opacity: 1; /* Cambia la opacidad al aparecer */
+    transform: rotateX(0deg) rotateY(0deg); /* Puedes aplicar la rotación aquí si es necesario */
+}
+
+/* Aplicar la clase "aparecer" para que la imagen aparezca con la animación */
+.img__contenedor.aparecer .img__foto {
+    transform: scale(1); /* Escala para entrada gradual */
+}
+
+
+.h__contenedor {
+    border: none;
+    margin-top: 7%;
+    position: static;
+}
+
+.h1_head__port {
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: #f0f0f0;
+    margin-top: 10%;
+    overflow: hidden; /* Ocultar el texto que aún no se ha mostrado */
+    white-space: nowrap; /* Evitar saltos de línea */
+    /*border-right: 2px solid white; /* Simular el cursor */
+    animation: escribir 3s steps(28) forwards; /* Duración y pasos de la animación */
+}
+
+@keyframes escribir {
+
+    from {
+        width: 0; /* Comenzar con el texto invisible */
+    }
+
+    to {
+        width: 100%; /* Mostrar el texto completo */
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.2rem;
+    height: 4rem;
+    background-color: white;
+    animation: parpadeo 1s infinite;
+}
+
+
+@keyframes parpadeo {
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.h2_head__port {
+    /* ...otros estilos... */
+    font-size: 2rem;
+    color: darkgrey;
+    opacity: 0;
+    animation: slideInFromRight 1s ease-in-out forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
+    width: 100%;
+    margin: 0%;
+    height: 10%;
+}
+
+.header__port {
+    background-image: url(../../../assets/img/img_portafolio/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.img__contenedor {
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    margin: 5%;
+    margin-top: 10%;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.img__foto {
+    width: 100%;
+    height: auto;
+    margin-left: 0.4rem;
+    margin-top: 2rem;
+}
+
+.h__contenedor {
+    background-color: transparent;
+    margin: 75%;
+    margin-top: 0%;
+    display: block;
+    line-height:0;
+}
+
+.h1_head__port {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: #f0f0f0;
+    margin-top: 10%;
+}
+
+.h2_head__port {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #f0f0f0;
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.1rem;
+    height: 4rem;
+    background-color: white;
+    animation: parpadeo 0.5s infinite;
+}
+
+@keyframes parpadeo {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+}
+
+*/

@@ -1,0 +1,9 @@
+@import url(./pagina_de_carga/pagina_de_carga.css);
+@import url(./body/body.css);
+@import url(./sect_nav_oculto/sect_nav_oculto.css);
+@import url(./header/header.min.css);
+@import url(./sect_oculto/sect_oculto.css);
+@import url(./sect_oculto/article_id_perfil.css);
+@import url(./sect_oculto/article_id_skills.css);
+@import url(./sect_oculto/article_id_educacion.css);
+@import url(./sect_nav/sect_nav.css);

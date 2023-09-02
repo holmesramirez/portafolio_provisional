@@ -1,0 +1,14 @@
+.sect__data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    overflow: hidden; /* Para recortar cualquier contenido que se salga del contenedor */
+}
+
+.foto {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 5rem;
+}

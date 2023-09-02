@@ -1,0 +1,72 @@
+.obstacle {
+    position: absolute;
+    width: 3.5rem;
+    height: 1rem;
+    opacity: 0.7;
+    bottom: 0;
+    left: 0;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);/* Sombra */
+    transform: scale(1) perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(10px);/* Efecto 3D */
+    transition: 0.2s ease-in-out;
+}
+
+.obstacle0 {
+    margin-bottom: 40%;
+    margin-left: 80%;
+    background: linear-gradient(135deg, #e10707, #e13d3d);
+    background-color: red;
+}
+
+.obstacle1 {
+    margin-bottom: 40%;
+    margin-left: 13%;
+    background: linear-gradient(135deg, #ffff1c, #f8ff3c);
+    background-color: rgb(255, 255, 26);
+}
+
+.obstacle2 {
+    margin-bottom: 50%;
+    margin-left: 47%;
+    background: linear-gradient(135deg, #2042be, #0954cb);
+    background-color: blue;
+}
+
+
+/*Sensacion de profundidad*/
+.obstacle::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.991);
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+    filter: blur(20rem);
+}
+
+/*Pequeño brillo*/
+.obstacle::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+}
+
+/*Leve levantamiento*/
+.obstacle:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 2);
+}
+
+/*Mover lijeramente los elementos*/
+.obstacle:hover::before,
+.obstacle:hover::after {
+    top: 5%;
+    left: 5%;
+}

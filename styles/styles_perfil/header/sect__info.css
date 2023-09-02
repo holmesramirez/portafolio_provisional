@@ -1,0 +1,61 @@
+.h3__contacto{
+    color:  rgb(87, 87, 87);
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.email {
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.email .a__email {
+    text-decoration: none;
+    margin-left: 5%;
+    color: rgb(87, 87, 87);
+    font-size: smaller;
+    display: inline-block; /* Asegura que el enlace solo ocupe el espacio del texto */
+    transition: transform 1s; /* Mueve la transición aquí para que se aplique correctamente */
+}
+.email .a__email:hover {
+    transform: scale(1.15); /* Solo el texto del enlace crecerá */
+}
+
+.telefono {
+    margin-top: -3%;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.telefono .a__telefono {
+    text-decoration: none;
+    margin-left: 3%;
+    color: rgb(87, 87, 87);
+    font-size: smaller;
+    display: inline-block; /* Asegura que el enlace solo ocupe el espacio del texto */
+    transition: transform 1s; /* Mueve la transición aquí para que se aplique correctamente */
+}
+.telefono .a__telefono:hover {
+    transform: scale(1.15); /* Solo el texto del enlace crecerá */
+}
+
+
+.ubicacion {
+    margin-top: -3%;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.ubicacion .a__ubicacion {
+    text-decoration: none;
+    margin-left: 4%;
+    color: rgb(87, 87, 87);
+    font-size: smaller;
+    display: inline-block; /* Asegura que el enlace solo ocupe el espacio del texto */
+    transition: transform 1s; /* Mueve la transición aquí para que se aplique correctamente */
+}
+.ubicacion .a__ubicacion:hover {
+    transform: scale(1.15); /* Solo el texto del enlace crecerá */
+}

@@ -1,0 +1,18 @@
+.header {
+    display: block;
+    justify-content: center space-between;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 10%;
+    padding: 1%;
+    width: 20%;
+    border-radius: 2rem;
+    background: linear-gradient(70deg, #fefefe, #272727);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.header:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4rem 8rem rgba(29, 28, 28, 0.2), 0 0 4rem rgba(7, 7, 7, 0.1);
+}

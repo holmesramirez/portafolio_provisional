@@ -1,0 +1,17 @@
+.startButton {
+    display: block;
+    margin: 1rem auto;
+    margin-left: 44%;
+    padding: 0.5rem 20px;
+    font-size: 18px;
+    border-radius: 1rem;
+    transform: scale(1) perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(10px);/* Efecto 3D */
+    transition: 0.2s ease-in-out;
+    background: linear-gradient(135deg, #e1a707, #e13d3d);
+    background-color: rgb(255, 162, 0);
+}
+
+.startButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 2);
+}

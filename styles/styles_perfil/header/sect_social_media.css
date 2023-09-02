@@ -1,0 +1,28 @@
+.sect__social__media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 100%;
+    border: none;
+}
+
+.a__github .log__github {
+    width: 50%;
+}
+
+.a__github .log__github:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.a__linkedin .log__linkedin {
+    width: 34%;
+    margin-left: -40%;
+}
+
+.a__linkedin .log__linkedin:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}

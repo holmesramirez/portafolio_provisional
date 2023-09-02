@@ -1,0 +1,8 @@
+.article__game {
+    margin-top: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /*oculta cualquier contenido que salga del contenedor*/
+}

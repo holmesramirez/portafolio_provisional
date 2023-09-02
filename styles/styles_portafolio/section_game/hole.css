@@ -1,0 +1,44 @@
+.hole {
+    margin-top: 5%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    /*z-index: -1; /* Para que los agujeros estén detrás de otros elementos */
+}
+
+.hole__perfil {
+    left: 100px;
+    top: 100px;
+}
+
+.hole__referencias {
+    right: 100px;
+    top: 100px;
+}
+
+.hole__bpm {
+    left: 35%;
+    top: 10%;
+}
+
+.hole__contacto {
+    right: 35%;
+    top: 10%;
+}
+
+.navP {
+    margin-left: -20%;
+    margin-top: 100%;
+    text-align: center;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}

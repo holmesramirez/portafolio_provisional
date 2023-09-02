@@ -1,0 +1,47 @@
+.article__contacto {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.article__contacto .h3__contacto{
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.email {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.email .a__email {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+
+.telefono {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.telefono .a__telefono {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+
+.ubicacion {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.ubicacion .a__ubicacion {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}

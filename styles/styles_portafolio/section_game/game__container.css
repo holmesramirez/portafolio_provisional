@@ -1,0 +1,11 @@
+.game__container {
+    position: relative;
+    margin-top: 0%;
+    width: 600px;
+    height: 500px;
+    border: 0.1rem solid black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(126, 227, 255, 0.632);
+}
