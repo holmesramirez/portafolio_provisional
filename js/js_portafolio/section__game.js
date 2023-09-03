@@ -9,11 +9,11 @@ const gameContainer = document.querySelector('.game__container');
 //queda pendiente verificar las rutas de sound, es posible que sea arror del servidor
 //deberia ser /../../assets/sound/sound_portafolio/paddle.wav'); 
 const paddleSound = new Audio('../assets/sound/sound_portafolio/paddle.wav');
-const obstacleSound = new Audio('assets/sound/sound_portafolio/paddle.wav');
-const wallSound = new Audio('assets/sound/sound_portafolio/paddle.wav');
-const holeSound = new Audio('assets/sound/sound_portafolio/hole.wav');
-const startButtonSound = new Audio('assets/sound/sound_portafolio/start.wav');
-const loseSound = new Audio('assets/sound/sound_portafolio/lose.wav');
+const obstacleSound = new Audio('../assets/sound/sound_portafolio/paddle.wav');
+const wallSound = new Audio('../assets/sound/sound_portafolio/paddle.wav');
+const holeSound = new Audio('../assets/sound/sound_portafolio/hole.wav');
+const startButtonSound = new Audio('../assets/sound/sound_portafolio/start.wav');
+const loseSound = new Audio('../assets/sound/sound_portafolio/lose.wav');
 
 
 let ballX = 300;
